@@ -1,43 +1,43 @@
 # Serenity 🧘‍♀️✨
 
-![Serenity Preview](https://raw.githubusercontent.com/frontenddeveloper2025dev/MeditateFlow/refs/heads/main/meditate.png)
+![Vista previa Serenity](https://raw.githubusercontent.com/frontenddeveloper2025dev/MeditateFlow/refs/heads/main/meditate.png)
 
-## Overview
+## Descripción General
 
-**Serenity** is a modern meditation and mindfulness application built with **React, Express, and TypeScript**.  
-The app helps users create personalized meditation experiences through guided breathing sessions, ambient soundscapes, interval bells, and progress tracking.
+**Serenity** es una aplicación moderna de meditación y mindfulness desarrollada con **React, Express y TypeScript**.  
+La aplicación permite crear experiencias de meditación personalizadas mediante sesiones guiadas de respiración, sonidos ambientales, campanas de intervalo y seguimiento del progreso.
 
-Users can customize:
-- Meditation duration
-- Breathing patterns
-- Ambient sounds
-- Interval bells
-- Daily meditation goals
+Los usuarios pueden personalizar:
+- Duración de la meditación
+- Patrones de respiración
+- Sonidos ambientales
+- Campanas de intervalo
+- Objetivos diarios de meditación
 
-The application also tracks:
-- Meditation history
-- Daily goals
-- Session streaks
-- Total meditation time
+La aplicación también registra:
+- Historial de sesiones
+- Objetivos diarios
+- Rachas de meditación
+- Tiempo total meditado
 
-Designed with a calm and responsive UI, Serenity focuses on accessibility, simplicity, and immersive mindfulness experiences.
-
----
-
-# ✨ Features
-
-- 🫁 Guided breathing animations
-- 🌧 Ambient sounds (Rain, Ocean, Forest, Wind)
-- 🔔 Interval meditation bells
-- ⏱ Session timer and progress tracking
-- 📊 Meditation statistics and streaks
-- 🎯 Daily meditation goals
-- 📱 Fully responsive design
-- 🎨 Modern UI built with Radix + Tailwind CSS
+Diseñada con una interfaz limpia y responsiva, Serenity busca ofrecer una experiencia relajante, accesible e inmersiva.
 
 ---
 
-# 🖥 Tech Stack
+# ✨ Características
+
+- 🫁 Animaciones guiadas de respiración
+- 🌧 Sonidos ambientales (Lluvia, Océano, Bosque y Viento)
+- 🔔 Campanas de meditación por intervalos
+- ⏱ Temporizador y seguimiento de sesiones
+- 📊 Estadísticas y rachas de meditación
+- 🎯 Objetivos diarios
+- 📱 Diseño totalmente responsivo
+- 🎨 Interfaz moderna construida con Radix UI + Tailwind CSS
+
+---
+
+# 🖥 Tecnologías Utilizadas
 
 ## Frontend
 - React 18
@@ -53,9 +53,9 @@ Designed with a calm and responsive UI, Serenity focuses on accessibility, simpl
 - Node.js
 - Express
 - Drizzle ORM
-- PostgreSQL-ready architecture
+- Arquitectura preparada para PostgreSQL
 
-## Development Tools
+## Herramientas de Desarrollo
 - TypeScript
 - Vite
 - Drizzle Kit
@@ -64,85 +64,85 @@ Designed with a calm and responsive UI, Serenity focuses on accessibility, simpl
 
 ---
 
-# 🏗 System Architecture
+# 🏗 Arquitectura del Sistema
 
-## Frontend Architecture
+## Arquitectura Frontend
 
-- Single Page Application (SPA)
-- Lightweight routing with **Wouter**
-- Local state managed with React Hooks
-- Server state managed with **TanStack Query**
-- Responsive UI powered by **Tailwind CSS**
-- Accessible components using **Radix UI**
-
----
-
-## Backend Architecture
-
-- REST API built with **Express**
-- In-memory storage for development
-- Database-ready structure using **Drizzle ORM**
-- Session tracking and user preference handling
+- Aplicación SPA (Single Page Application)
+- Routing ligero con **Wouter**
+- Estado local manejado con React Hooks
+- Estado del servidor gestionado con **TanStack Query**
+- Diseño responsivo con **Tailwind CSS**
+- Componentes accesibles utilizando **Radix UI**
 
 ---
 
-# 🗄 Database Schema
+## Arquitectura Backend
 
-The application is prepared for PostgreSQL integration with predefined schemas for:
+- API REST desarrollada con **Express**
+- Almacenamiento en memoria para desarrollo
+- Estructura lista para integración con base de datos mediante **Drizzle ORM**
+- Gestión de sesiones y preferencias del usuario
+
+---
+
+# 🗄 Esquema de Base de Datos
+
+La aplicación está preparada para integrarse con PostgreSQL mediante esquemas predefinidos para:
 
 - `users`
 - `meditation_sessions`
 - `user_preferences`
 
-Drizzle ORM provides:
-- Type-safe queries
-- Schema validation
-- Migration support
+Drizzle ORM proporciona:
+- Consultas tipadas
+- Validación de esquemas
+- Soporte para migraciones
 
 ---
 
-# 🎧 Audio Features
+# 🎧 Funciones de Audio
 
-Serenity includes a custom audio management system with:
+Serenity incluye un sistema personalizado de manejo de audio con:
 
-- Ambient background sounds
-- Breathing synchronization
-- Interval meditation bells
-- Web Audio API integration
+- Sonidos ambientales de fondo
+- Sincronización con respiración guiada
+- Campanas de meditación
+- Integración con Web Audio API
 
-Available soundscapes:
-- Rain
-- Ocean
-- Forest
-- Wind
-
----
-
-# 📈 Meditation Tracking
-
-Users can monitor:
-- Total meditation minutes
-- Daily goals
-- Meditation streaks
-- Session history
+Sonidos disponibles:
+- Lluvia
+- Océano
+- Bosque
+- Viento
 
 ---
 
-# 🚀 Getting Started
+# 📈 Seguimiento de Meditación
 
-## Install dependencies
+Los usuarios pueden monitorear:
+- Minutos totales meditados
+- Objetivos diarios
+- Rachas de meditación
+- Historial de sesiones
+
+---
+
+# 🚀 Primeros Pasos
+
+## Instalar dependencias
 
 ```bash
 npm install
 ```
 
-## Run development server
+## Ejecutar servidor de desarrollo
 
 ```bash
 npm run dev
 ```
 
-## Build for production
+## Compilar para producción
 
 ```bash
 npm run build
@@ -150,48 +150,48 @@ npm run build
 
 ---
 
-# 📂 Project Structure
+# 📂 Estructura del Proyecto
 
 ```bash
-client/        # React frontend
-server/        # Express backend
-shared/        # Shared schemas and types
-public/        # Static assets
+client/        # Frontend en React
+server/        # Backend con Express
+shared/        # Tipos y esquemas compartidos
+public/        # Recursos estáticos
 ```
 
 ---
 
-# 🌿 Design Philosophy
+# 🌿 Filosofía de Diseño
 
-Serenity was designed to create a calming digital experience through:
-- Minimal interfaces
-- Smooth animations
-- High readability
-- Soft visual hierarchy
-- Mindful interaction patterns
-
----
-
-# 🔮 Future Improvements
-
-- User authentication
-- Cloud database integration
-- Guided meditation voice packs
-- Mood tracking
-- AI-powered meditation recommendations
-- Offline support
-- Mobile app version
+Serenity fue diseñado para crear una experiencia digital relajante mediante:
+- Interfaces minimalistas
+- Animaciones suaves
+- Alta legibilidad
+- Jerarquía visual clara
+- Interacciones conscientes y accesibles
 
 ---
 
-# 📸 Preview
+# 🔮 Futuras Mejoras
+
+- Autenticación de usuarios
+- Integración con base de datos en la nube
+- Meditaciones guiadas con voz
+- Seguimiento emocional y de estado de ánimo
+- Recomendaciones mediante IA
+- Soporte offline
+- Aplicación móvil
+
+---
+
+# 📸 Vista Previa
 
 ![Serenity App](https://raw.githubusercontent.com/frontenddeveloper2025dev/MeditateFlow/refs/heads/main/meditate.png)
 
 ---
 
-# 👩‍💻 Author
+# 👩‍💻 Autor
 
-Created by **Alejandra Bárcena**  
+Creado por **Índigo / Alejandra Bárcena**  
 Frontend Developer • UX/UI • Creative Technologist
 
